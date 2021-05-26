@@ -1,0 +1,10 @@
+.div-login {
+    background-image: url("../../imagens/fundo-login.jpg");
+    background-size: cover;
+    width: 400px;
+    height: 100%;
+    margin: 10px auto 0 auto;
+    padding: 40px;
+    color: antiquewhite;
+    border-radius: 20px;
+}

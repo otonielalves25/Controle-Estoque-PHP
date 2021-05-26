@@ -1,0 +1,16 @@
+.usuario-logado {
+    font-size: 10px;
+    line-height: 30px;
+    text-align: right;
+    color: blanchedalmond;
+}
+
+.papel-fundo {
+    background-image: url("../../imagens/fundo-pricipal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 600px;
+    ;
+}

@@ -1,0 +1,53 @@
+<?php
+if(!isset($_SESSION)){session_start();}
+?>
+    <div class="container-fluid">
+        <div class="row linha fixed-top">
+
+            <nav class="menu">
+                <ul>
+                    <li><a href="#">Movimentação</a>
+                        <ul>
+                            <li><a href="envio-add.php">Envio</a></li>
+
+                        </ul>
+
+                    </li>
+                    <li><a href="#">Cadastro</a>
+                        <ul>
+                            <li><a href="#">Equipamento</a>
+                                <ul>
+                                    <li><a href="#">Novo Equipamento</a></li>
+                                    <li><a href="#">Marca Modelo</a></li>
+                                    <li><a href="./categoria-lista.php">Categoria</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Consulta</a>
+                        <ul>
+                            <li><a href="./equipamento-pesquisa.php">Equipamento</a></li>
+                            <li><a href="./equipamento-pesquisa.php">Equipamento por Tipo</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Relatório</a></li>
+                    <li><a href="#">Acesso</a>
+                        <ul>
+                            <li><a href="usuario-lista.php">Usuários</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Sair</a>
+                        <ul>
+                            <li><a href="logoff.php">Sair</a></li>
+                        </ul>
+
+                    </li>
+            </nav>
+            <div class="col text-right mr-3">
+                <span class="usuario-logado">Logado: <?php echo $_SESSION['nome'];?></span>
+            </div>
+
+
+        </div>
+
+    </div>

@@ -1,0 +1,54 @@
+.linha {
+    background-color: rgb(2, 68, 18);
+    border-bottom: rgb(2, 68, 18);
+}
+
+.menu ul li {
+    background-color: rgb(2, 68, 18);
+    float: left;
+    width: 160px;
+    height: 30px;
+    display: inline;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+    position: relative;
+    /* border-bottom: rgb(2, 68, 18) 1px solid; */
+}
+
+.menu ul li:hover {
+    background-color: rgb(37, 117, 37);
+    z-index: 4;
+}
+
+.menu ul {
+    padding: 0px;
+}
+
+.menu ul ul {
+    display: none;
+}
+
+.menu ul li:hover>ul {
+    display: block;
+}
+
+.menu ul ul ul {
+    margin-left: 160px;
+    top: 0px;
+    position: absolute;
+}
+
+.menu ul ul li:hover {
+    background-color: black;
+}
+
+.menu ul ul ul li:hover {
+    background-color: black;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
